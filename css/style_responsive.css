@@ -1,0 +1,106 @@
+@charset "utf-8";
+
+@media all and (max-width: 420px) {
+  /* トップとナビゲーション */
+  .top {
+    width: 54%;
+    margin: 0 auto;
+  }
+  .navMenu {
+    display: none;
+  }
+  .responsiveNav {
+    width: 100%;
+    height: 80px;
+    border-top: 0.5px solid #555555;
+    background-color: #007bc7;
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    z-index: 100;
+  }
+  .responsiveNavMenu {
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.2rem;
+  }
+  .responsiveNavMenu > li > a {
+    width: 100%;
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+  }
+  /* ここまでトップとナビゲーション */
+
+  /* ヘッダー */
+  h1 {
+    display: none;
+  }
+  .responsive_h1 {
+    display: block;
+  }
+  /* ここまでヘッダー */
+
+  /* 統一セクション */
+  .section_container {
+    padding: 45px 5%;
+  }
+  .section_content {
+    flex-direction: column;
+  }
+  /* ここまで統一セクションss */
+
+  /* Profileセクション */
+  .profile {
+    height: 1200px;
+  }
+  th,
+  td {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+  /* ここまでProfileセクション */
+
+  /* Self PRセクション */
+  .selfpr {
+    height: 1000px;
+  }
+  .selfpr_list {
+    flex-direction: column;
+    margin: 0;
+  }
+  .selfpr_list_items {
+    width: 100%;
+    height: 230px;
+  }
+  /* ここまでSelf PRセクション */
+
+  /* Visionセクション */
+  .vision {
+    height: 800px;
+  }
+  /* ここまでVisionセクション */
+
+  /* NEXT COMING SONN */
+  .next_coming_soon {
+    font-size: 2.2rem;
+    bottom: -12px;
+  }
+  /* ここまでNEXT COMING SONN */
+
+  /* フッター */
+  footer {
+    padding: 0 !important;
+    padding-bottom: 80px !important;
+  }
+  small {
+    position: relative;
+    bottom: -5px;
+  }
+  /* ここまでフッター */
+}

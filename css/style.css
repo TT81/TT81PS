@@ -136,8 +136,7 @@ h2.section_english_heading::after {
   height: 350px;
 }
 table {
-  font-size: 1.5rem;
-  margin: 20px 20px;
+  font-size: 1.3rem;
 }
 th {
   text-align: right;
@@ -183,7 +182,7 @@ td {
 }
 .selfpr_list_items_paragraph {
   text-align: start;
-  line-height: 1.7rem;
+  line-height: 1.5rem;
 }
 /* ここまでSelf PRセクション */
 
